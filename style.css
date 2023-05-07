@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.fixwidth{
+    width: 1080px;
+    margin: auto;
+}
+/* ------hederpart------- */
+
+.mainheder{
+    background-color: #22c3a3;
+}
+.hederleft{
+    float: left;
+    width: 30%;
+
+}
+.hederleft h1{
+    color: white;
+    padding: 10px; 
+    transition: .4s;
+}
+.hederleft h1:hover{
+    transform: scale(1.1);
+}
+
+
+.hederright{
+    float: right;
+    width: 70%;
+}
+.hederright ul{
+    line-height: 37px;
+    list-style: none;
+    text-align: end;
+}
+.hederright ul li{
+    display: inline-block;
+}
+.hederright ul li a{
+    display: inline-block;text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: .4s;
+}
+.hederright ul li a:hover{
+    transform: scale(1.2);
+}
+
+/* -----baner part------- */
+/* <a href="https://ibb.co/mqQjfpF"><img src="https://i.ibb.co/tsyGVRP/header-bg01.jpg" alt="header-bg01" border="0"></a> */
+.baner{
+    background-image: url("https://i.ibb.co/tsyGVRP/header-bg01.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+}
+.baner h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 45px;
+    margin-top: 190px;
+    padding: 10px;
+}
+.baner h2{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.baner a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.baner a:hover{
+    transform: scale(1.1);
+}
+
+
+/* -------service------ */
+.servicediv{
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 1px solid #22c3a3;
+}
+.servicemain h1{
+
+}
+.servicemain p {
+    padding: 20px 0px;
+    color: #4e4d4d;
+}
+/* servicediv1 */
+.servicediv1{
+    padding: 25px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    transition: .3s;
+}
+.servicediv1:hover{
+    transform: scale(1.2);
+}
+.servicediv1 i{
+    font-size: 40px;
+    padding: 15px;
+    color: #22c3a3;
+}
+.servicediv1 h1{
+    padding: 10px;
+    font-size: 24px;
+    color: #4e4d4d;
+}
+.servicediv1 p{
+    color: #4e4d4d;
+}
+
+/* servicediv2 */
+.servicediv2{
+    padding: 25px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    transition: .3s;
+}
+.servicediv2:hover{
+    transform: scale(1.2);
+}
+.servicediv2 i{
+    font-size: 40px;
+    padding: 15px;
+    color: #22c3a3;
+}
+.servicediv2 h1{
+    padding: 10px;
+    font-size: 24px;
+    color: #4e4d4d;
+}
+.servicediv2 p{
+    color: #4e4d4d;
+}
+
+/* servicediv3 */
+.servicediv3{
+    padding: 25px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    transition: .3s;
+}
+.servicediv3:hover{
+    transform: scale(1.2);
+}
+.servicediv3 i{
+    font-size: 40px;
+    padding: 15px;
+    color: #22c3a3;
+}
+.servicediv3 h1{
+    padding: 10px;
+    font-size: 24px;
+    color: #4e4d4d;
+}
+.servicediv3 p{
+    color: #4e4d4d;
+}
+
+/* servicediv4 */
+.servicediv4{
+    padding: 25px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    transition: .3s;
+}
+.servicediv4:hover{
+    transform: scale(1.2);
+}
+.servicediv4 i{
+    font-size: 40px;
+    padding: 15px;
+    color: #22c3a3;
+}
+.servicediv4 h1{
+    padding: 10px;
+    font-size: 24px;
+    color: #4e4d4d;
+}
+.servicediv4 p{
+    color: #4e4d4d;
+}
+
+/* about div */
+
+/* <a href="https://imgbb.com/"><img src="https://i.ibb.co/cyqWFmM/about.jpg" alt="about" border="0"></a> */
+
+.aboutdiv{
+    padding: 50px 0px;
+}
+.about {
+    text-align: center;
+}
+.about h1{
+    padding: 20px;
+    color: #4e4d4d;
+}
+.about p{
+    padding: 40px;
+    color: #4e4d4d;
+}
+.aboutimg{
+
+    float: left;
+}
+.aboutimg img{
+    width: 400px;
+    padding-right: 50px;
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+.abouttitle{
+    padding: 10px 0px;
+    color: #4e4d4d;
+}
+.abouttitle h4{
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #4e4d4d;
+
+}
+
+
+
+/* ----contact----- */
+.contactdiv{
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #ece6e6;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+
+}
+.contact h1{
+    padding: 20px;
+    color: #4e4d4d;
+}
+.contact p{
+    padding: 20px 0px;
+    color: #4e4d4d;
+}
+
+.allcontact{
+    text-align: center;
+    padding: 25px 0px;
+}
+.contact1{
+    float: left;
+    width: 33%;
+    transition: .3s;
+}
+.contact1:hover{
+    transform: scale(1.2);
+}
+.contact1 i{
+    color: #22c3a3;
+    margin-bottom: 10px;
+}
+.contact1 p{
+    line-height: 25px;
+    color: #4e4d4d;
+
+}
+
+.contact2{
+    width: 33%;
+    float: left;
+    transition: .3s;
+}
+.contact2:hover{
+    transform: scale(1.2);
+}
+.contact2 i{
+    color: #22c3a3;
+    margin-bottom: 10px;
+}
+.contact2 p{
+    color: #4e4d4d;
+}
+
+.contact3{
+    width: 33%;
+    float: right;
+    transition: .3s;
+}
+.contact3:hover{
+    transform: scale(1.2);
+}
+.contact3 i{
+    color: #22c3a3;
+    margin-bottom: 10px;
+}
+.contact3 p{
+    line-height: 25px;
+    color: #4e4d4d;
+}
+/* ---------foot------ */
+.footdiv{
+    background-color: #22c3a3;
+    padding: 20px;
+}
+.footdiv ul{
+    text-align: center;
+    list-style: none;
+}
+.footdiv ul li{
+    display: inline-block;
+}
+.footdiv ul li a{
+    color: white;
+    padding: 10px 15px;
+
+}
+.footdiv ul li a i{
+    transition: .3s;
+}
+.footdiv ul li a i:hover{
+    transform: scale(1.2);
+}
+/* footerdiv */
+.footerdiv{
+    background-color: #222222;
+    text-align: center;
+    padding: 15px;
+}
+.footerdiv p{
+    color: #4e4d4d;
+    font-size: 12px;
+}
